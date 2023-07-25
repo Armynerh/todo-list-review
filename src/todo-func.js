@@ -88,7 +88,7 @@ export const addTodo = (text) => {
   const todo = {
     description: text,
     completed: false,
-    index: maxIndex + 1, // Assigning the correct index for the new todo
+    index: maxIndex + 1,
   };
   todos.push(todo);
   localStorage.setItem('todos', JSON.stringify(todos));

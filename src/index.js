@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
   renderTodos();
 });
 
-// Add event listener to the refresh icon
 const refreshIcon = document.querySelector('.fa-sync');
 refreshIcon.addEventListener('click', () => {
   renderTodos();

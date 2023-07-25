@@ -46,7 +46,6 @@ input {
   display: none;
 }
 
-/* Show edit and delete buttons on hover of the todo item */
 .todo-item:hover .fa-pen-to-square,
 .todo-item:hover .fa-trash {
   display: inline;
