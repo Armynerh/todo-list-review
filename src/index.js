@@ -19,7 +19,6 @@ clearCompletedBtn.addEventListener('click', clearCompleted);
 
 document.addEventListener('DOMContentLoaded', () => {
   renderTodos();
-
 });
 
 // Add event listener to the refresh icon
