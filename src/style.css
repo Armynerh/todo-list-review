@@ -1,0 +1,56 @@
+body {
+  background-color: #f0eded;
+}
+
+.todo-item {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #d8d6d6;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 20px;
+  margin: auto;
+  color: #817c7c;
+  background-color: #fff;
+}
+
+#kebab {
+  color: #d8d6d6;
+}
+
+.last-para {
+  background: #eceaea;
+  justify-content: center;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+input {
+  border: none;
+}
+
+/* Add some basic styles to the todo items and the edit/delete buttons */
+.todo-item label {
+  flex: 1;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.fa-pen-to-square,
+.fa-trash {
+  cursor: pointer;
+  margin-left: 8px;
+  display: none;
+}
+
+.todo-item:hover .fa-pen-to-square,
+.todo-item:hover .fa-trash {
+  display: inline;
+}
+
+.todo-item:hover .fa-ellipsis-vertical {
+  display: none;
+}
